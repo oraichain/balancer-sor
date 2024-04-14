@@ -1,4 +1,4 @@
-import { BigNumber, formatFixed, parseFixed } from '@ethersproject/bignumber';
+import { BigNumber, parseFixed } from '@ethersproject/bignumber';
 import { OldBigNumber, SubgraphPoolBase, SwapTypes } from '../../src';
 import {
     filterPoolsOfInterest,

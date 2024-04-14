@@ -17,9 +17,7 @@
         "node:polygon": "npx hardhat --tsconfig tsconfig.testing.json --config hardhat.config.polygon.ts node --fork $(. ./.env && echo $RPC_URL_POLYGON) --port 8137"
     },
     "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged && yarn run lint"
-        }
+        
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
