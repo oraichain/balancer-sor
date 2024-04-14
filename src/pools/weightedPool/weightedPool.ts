@@ -110,7 +110,7 @@ export class WeightedPool implements PoolBase<WeightedPoolPairData> {
 
     parsePoolPairData(tokenIn: string, tokenOut: string): WeightedPoolPairData {
         const tokenIndexIn = this.tokens.findIndex(
-            (t) => getAddress(t.address) === getAddress(tokenIn)
+            (t) => t.address === tokenIn
         );
         if (tokenIndexIn < 0) throw 'Pool does not contain tokenIn';
         const tI = this.tokens[tokenIndexIn];
@@ -121,7 +121,7 @@ export class WeightedPool implements PoolBase<WeightedPoolPairData> {
             .div(this.totalWeight);
 
         const tokenIndexOut = this.tokens.findIndex(
-            (t) => getAddress(t.address) === getAddress(tokenOut)
+            (t) => t.address === tokenOut
         );
         if (tokenIndexOut < 0) throw 'Pool does not contain tokenOut';
         const tO = this.tokens[tokenIndexOut];

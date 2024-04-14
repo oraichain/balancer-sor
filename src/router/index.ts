@@ -64,12 +64,15 @@ export const getBestPaths = (
             costReturnToken
         );
 
+    console.log('best swap amounts: ', bestSwapAmounts.toString());
+
     const [swaps, bestTotalReturn, marketSp] = formatSwaps(
         bestPaths,
         swapType,
         bnum(formatFixed(totalSwapAmount, inputDecimals)),
         bestSwapAmounts
     );
+    console.log('best total return: ', bestTotalReturn);
 
     if (bestTotalReturn.eq(0)) return [[], ZERO, ZERO, ZERO];
 

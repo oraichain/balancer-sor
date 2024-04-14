@@ -48,12 +48,14 @@ export function filterPoolsOfInterest(
     const directPools: PoolDictionary = {};
     const hopsIn: hopDictionary = {};
     const hopsOut: hopDictionary = {};
+    // console.log({ tokenIn, tokenOut });
 
     Object.keys(allPools).forEach((id) => {
         const pool = allPools[id];
         const tokenListSet = new Set(pool.tokensList);
-        const containsTokenIn = tokenListSet.has(tokenIn.toLowerCase());
-        const containsTokenOut = tokenListSet.has(tokenOut.toLowerCase());
+        const containsTokenIn = tokenListSet.has(tokenIn);
+        const containsTokenOut = tokenListSet.has(tokenOut);
+        // console.log({ tokenListSet, containsTokenIn, containsTokenOut });
 
         // This is a direct pool as has both tokenIn and tokenOut
         if (containsTokenIn && containsTokenOut) {
@@ -75,6 +77,7 @@ export function filterPoolsOfInterest(
             }
         }
     });
+    // console.log({ hopsIn, hopsOut });
     return [directPools, hopsIn, hopsOut];
 }
 

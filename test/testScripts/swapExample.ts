@@ -24,6 +24,7 @@ import {
 import { buildTx, printOutput } from './utils';
 
 import vaultArtifact from '../../src/abi/Vault.json';
+import { mockPoolDataService } from '../lib/mockPoolDataService';
 
 // Setup SOR with data services
 function setUp(networkId: Network, provider: JsonRpcProvider): SOR {
@@ -38,8 +39,8 @@ function setUp(networkId: Network, provider: JsonRpcProvider): SOR {
     });
 
     // Use the mock pool data service if you want to use pool data from a file.
-    // const poolsSource = require('../testData/testPools/gusdBug.json');
-    // mockPoolDataService.setPools(poolsSource);
+    const poolsSource = require('../testData/testPools/gusdBug.json');
+    mockPoolDataService.setPools(poolsSource);
 
     // Use coingecko to fetch token price information. Used to calculate cost of additonal swaps/hops.
     const coingeckoTokenPriceService = new CoingeckoTokenPriceService(
@@ -47,7 +48,7 @@ function setUp(networkId: Network, provider: JsonRpcProvider): SOR {
     );
     // Use the mock token price service if you want to manually set the token price in native asset
     // import { mockPoolDataService } from '../lib/mockPoolDataService';
-    //  mockTokenPriceService.setTokenPrice('0.001');
+    // mockTokenPriceService.setTokenPrice('0.001');
 
     return new SOR(
         provider,
@@ -58,15 +59,15 @@ function setUp(networkId: Network, provider: JsonRpcProvider): SOR {
 }
 
 export async function swap(): Promise<void> {
-    const networkId = Network.GNOSIS;
+    const networkId = Network.MAINNET;
     const provider = new JsonRpcProvider(PROVIDER_URLS[networkId]);
     // gasPrice is used by SOR as a factor to determine how many pools to swap against.
     // i.e. higher cost means more costly to trade against lots of different pools.
     const gasPrice = BigNumber.from('14000000000');
     // This determines the max no of pools the SOR will use to swap.
     const maxPools = 4;
-    const tokenIn = ADDRESSES[networkId].WXDAI;
-    const tokenOut = ADDRESSES[networkId].crvUSD;
+    const tokenIn = ADDRESSES[networkId].USDC;
+    const tokenOut = ADDRESSES[Network.POLYGON].USDT;
     const swapType: SwapTypes = SwapTypes.SwapExactIn;
     const swapAmount = parseFixed('200', 18);
 

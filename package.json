@@ -30,6 +30,7 @@
     ],
     "devDependencies": {
         "@balancer-labs/typechain": "^1.0.0",
+        "@cosmjs/cosmwasm-stargate": "^0.32.3",
         "@ethersproject/abi": "^5.4.1",
         "@ethersproject/address": "^5.4.0",
         "@ethersproject/bignumber": "^5.4.2",
@@ -39,6 +40,8 @@
         "@ethersproject/wallet": "^5.4.0",
         "@georgeroman/balancer-v2-pools": "0.0.7",
         "@nomiclabs/hardhat-ethers": "^2.0.6",
+        "@oraichain/oraidex-common": "^1.0.83",
+        "@oraichain/oraidex-contracts-sdk": "^1.0.44",
         "@rollup/plugin-commonjs": "^20.0.0",
         "@rollup/plugin-json": "^4.1.0",
         "@rollup/plugin-node-resolve": "^13.0.4",

@@ -10,7 +10,7 @@ import {
 import { SubgraphToken } from '../types';
 
 export const isSameAddress = (address1: string, address2: string): boolean =>
-    getAddress(address1) === getAddress(address2);
+    address1 === address2;
 
 /// Parses a fixed-point decimal string into a BigNumber
 /// If we do not have enough decimals to express the number, we truncate it

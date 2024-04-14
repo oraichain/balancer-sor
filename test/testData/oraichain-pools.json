@@ -1,0 +1,483 @@
+[
+    {
+        "id": "orai1hcjne0hmdj6pjrc3xuksucr0yplsa9ny7v047c34y8k8hfflq6yqyjapnn",
+        "address": "orai16ltg2c8u9styus3dgql64mpupvtclxt9xdzvz0slx3pnrycxpm3qw75c5x",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "5334080692",
+        "tokens": [
+            {
+                "address": "orai19q4qak2g3cj2xc2y3060t0quzn3gfhzx08rjlrdd3vqxhjtat0cq668phq",
+                "balance": "4988486094",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78",
+                "balance": "5734036547",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai19q4qak2g3cj2xc2y3060t0quzn3gfhzx08rjlrdd3vqxhjtat0cq668phq",
+            "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1slqw6gfvs6l2jgvh5ryjayf4g77d7sgfv6fumtyzcr06a6g9gnrq6c4rgg",
+        "address": "orai1le7w5dmd23ky8f6zgtgfnpdv269qs6ezgr839sm8kj24rwaqqnrs58wf4u",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "10483309506",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "15803521149",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
+                "balance": "7246896542",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1rvr9wk6mdlfysvgp72ltthqvkkd5677mp892efq86yyr9alt0tms2a6lcs",
+        "address": "orai10jgd0l4l0p2h7ugpk2lz64wpefjxc0h7evnlxf76a3fspdplarnsl9ma4j",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "1767200540",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "29116669523",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai1dqa52a7hxxuv8ghe7q5v0s36ra0cthea960q2cukznleqhk0wpnshfegez",
+                "balance": "108607700",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "orai1dqa52a7hxxuv8ghe7q5v0s36ra0cthea960q2cukznleqhk0wpnshfegez"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1rmvjmwd940ztafxue7630g75px8tqma4jskjuu57fkj0eqahqfgqqwjm00",
+        "address": "orai1yemx80gvcw05trjehy94rl4jz5dqjf2qxhks6258uvxd5s0m7h2quavx0g",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "107489848014",
+        "tokens": [
+            {
+                "address": "ibc/576B1D63E401B6A9A071C78A1D1316D016EC9333D2FEB14AD503FAC4B8731CD1",
+                "balance": "1460653178211",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai15un8msx3n5zf9ahlxmfeqd2kwa5wm0nrpxer304m9nd5q6qq0g6sku5pdd",
+                "balance": "42001965844",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "ibc/576B1D63E401B6A9A071C78A1D1316D016EC9333D2FEB14AD503FAC4B8731CD1",
+            "orai15un8msx3n5zf9ahlxmfeqd2kwa5wm0nrpxer304m9nd5q6qq0g6sku5pdd"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1jd9lc2qt0ltjsatgnu38xsz8ngp89clp0dpeh8geyjj70yvkn4kqmrmh3m",
+        "address": "orai1fv5kwdv4z0gvp75ht378x8cg2j7prlywa0g35qmctez9q8u4xryspn6lrd",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "404671440",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "30371798721",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai10g6frpysmdgw5tdqke47als6f97aqmr8s3cljsvjce4n5enjftcqtamzsd",
+                "balance": "5468400",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "orai10g6frpysmdgw5tdqke47als6f97aqmr8s3cljsvjce4n5enjftcqtamzsd"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1ay689ltr57jt2snujarvakxrmtuq8fhuat5rnvq6rct89vjer9gqm2vde6",
+        "address": "orai15aunrryk5yqsrgy0tvzpj7pupu62s0t2n09t0dscjgzaa27e44esefzgf8",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "43383167591",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "50451951943",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai1065qe48g7aemju045aeyprflytemx7kecxkf5m7u5h5mphd0qlcs47pclp",
+                "balance": "37732791503",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "orai1065qe48g7aemju045aeyprflytemx7kecxkf5m7u5h5mphd0qlcs47pclp"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1e0x87w9ezwq2sdmvv5dq5ngzy98lt47tqfaf2m7zpkg49g5dj6fqred5d7",
+        "address": "orai19ttg0j7w5kr83js32tmwnwxxdq9rkmw4m3d7mn2j2hkpugwwa4tszwsnkg",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "225574847425",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "71156445024",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai15un8msx3n5zf9ahlxmfeqd2kwa5wm0nrpxer304m9nd5q6qq0g6sku5pdd",
+                "balance": "808673629457",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "orai15un8msx3n5zf9ahlxmfeqd2kwa5wm0nrpxer304m9nd5q6qq0g6sku5pdd"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1xs5aj90d5m8kwfp9t6ghkcpk8d7sy5jsxdsyejjdxudhhfm7wegsdg929d",
+        "address": "orai1d3f3e3j400hxse5z8vxxnxdwmvljs7mh8xa3wp3spe8g4ngnc3cqx8scs3",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "72539647047",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "34851625650",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai1hn8w33cqvysun2aujk5sv33tku4pgcxhhnsxmvnkfvdxagcx0p8qa4l98q",
+                "balance": "422330685313",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "orai1hn8w33cqvysun2aujk5sv33tku4pgcxhhnsxmvnkfvdxagcx0p8qa4l98q"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1wgywgvumt5dxhm7vjpwx5es9ecrtl85qaqdspjqwx2lugy7vmw5qlwrn88",
+        "address": "orai103ya8qkcf3vg4nksqquy0v5pvnugjtlt0uxpfh0fkuqge2a6k4aqwurg22",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "169275472537",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "17048491413",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai1c7tpjenafvgjtgm9aqwm7afnke6c56hpdms8jc6md40xs3ugd0es5encn0",
+                "balance": "1752284340684",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "orai1c7tpjenafvgjtgm9aqwm7afnke6c56hpdms8jc6md40xs3ugd0es5encn0"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1nwpfd09mr4rf8d5c9mh43axzezkwyr7dq2lus23jsw4xw2jqkaxqxwmkd3",
+        "address": "orai1n4edv5h86rawzrvhy8lmrmnnmmherxnhuwqnk3yuvt0wgclh75usyn3md6",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "2892357937329",
+        "tokens": [
+            {
+                "address": "orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
+                "balance": "25110343524300",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai15un8msx3n5zf9ahlxmfeqd2kwa5wm0nrpxer304m9nd5q6qq0g6sku5pdd",
+                "balance": "338809135313",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
+            "orai15un8msx3n5zf9ahlxmfeqd2kwa5wm0nrpxer304m9nd5q6qq0g6sku5pdd"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai18ywllw03hvy720l06rme0apwyyq9plk64h9ccf",
+        "address": "orai1hr2l03ep6p9lwdkuqu5253fgpzc40xcpwymjfc",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "959575140371",
+        "tokens": [
+            {
+                "address": "orai12hzjxfh77wl572gdzct2fxv2arxcwh6gykc7qh",
+                "balance": "2589044837",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai1gzvndtzceqwfymu2kqhta2jn6gmzxvzqwdgvjw",
+                "balance": "378700944236687",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai12hzjxfh77wl572gdzct2fxv2arxcwh6gykc7qh",
+            "orai1gzvndtzceqwfymu2kqhta2jn6gmzxvzqwdgvjw"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1mav52eqhd07c3lwevcnqdykdzhh4733zf32jcn",
+        "address": "orai1c5s03c3l336dgesne7dylnmhszw8554tsyy9yt",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "227531858220",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "162733672049",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai12hzjxfh77wl572gdzct2fxv2arxcwh6gykc7qh",
+                "balance": "1859071018198",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": ["orai", "orai12hzjxfh77wl572gdzct2fxv2arxcwh6gykc7qh"],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai19ltj97jmdqnz5mrd2amethetvcwsp0220kww3e",
+        "address": "orai1d37artrk4tkhz2qyjmaulc2jzjkx7206tmpfug",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "45197220917",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "14918493109",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "ibc/9C4DCD21B48231D0BC2AC3D1B74A864746B37E4292694C93C617324250D002FC",
+                "balance": "179637169786",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "ibc/9C4DCD21B48231D0BC2AC3D1B74A864746B37E4292694C93C617324250D002FC"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1g2prqry343kx566cp7uws9w7v78n5tejylvaz6",
+        "address": "orai1jf74ry4m0jcy9emsaudkhe7vte9l8qy8enakvs",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "119055400",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "148710986680",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78",
+                "balance": "207893517411",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": [
+            "orai",
+            "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78"
+        ],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1hxm433hnwthrxneyjysvhny539s9kh6s2g2n8y",
+        "address": "orai1wkhkazf88upf2dxqedggy3ldja342rzmfs2mep",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "2284495011394",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "72513779516",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai10ldgzued6zjp0mkqwsv2mux3ml50l97c74x8sg",
+                "balance": "155463646200115",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": ["orai", "orai10ldgzued6zjp0mkqwsv2mux3ml50l97c74x8sg"],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai17rcfcrwltujfvx7w4l2ggyku8qrncy0hdvrzvc",
+        "address": "orai1ynmd2cemryhcwtjq3adhcwayrm89l2cr4tws4v",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "297478833283",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "3090243561",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai1nd4r053e3kgedgld2ymen8l9yrw8xpjyaal7j5",
+                "balance": "29605181828213",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": ["orai", "orai1nd4r053e3kgedgld2ymen8l9yrw8xpjyaal7j5"],
+        "totalWeight": "1"
+    },
+    {
+        "id": "orai1qmy3uuxktflvreanaqph6yua7stjn6j65rur62",
+        "address": "orai1m6q5k5nr2eh8q0rdrf57wr7phk7uvlpg7mwfv5",
+        "poolType": "Weighted",
+        "swapFee": "0.004",
+        "swapEnabled": true,
+        "totalShares": "3680635592469",
+        "tokens": [
+            {
+                "address": "orai",
+                "balance": "129998106726",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            },
+            {
+                "address": "orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge",
+                "balance": "108510651717641",
+                "decimals": 6,
+                "weight": "0.5",
+                "priceRate": ""
+            }
+        ],
+        "tokensList": ["orai", "orai1lus0f0rhx8s03gdllx2n6vhkmf0536dv57wfge"],
+        "totalWeight": "1"
+    }
+]

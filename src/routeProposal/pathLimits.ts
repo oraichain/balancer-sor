@@ -28,12 +28,25 @@ export function getLimitAmountSwapForPath(
     const poolPairData = path.poolPairData;
     let limit: OldBigNumber;
     if (swapType === SwapTypes.SwapExactIn) {
+        console.log({
+            ...poolPairData[poolPairData.length - 1],
+            balanceIn:
+                poolPairData[poolPairData.length - 1].balanceIn.toString(),
+            balanceOut:
+                poolPairData[poolPairData.length - 1].balanceOut.toString(),
+        });
         limit = path.pools[poolPairData.length - 1].getLimitAmountSwap(
             poolPairData[poolPairData.length - 1],
             SwapTypes.SwapExactIn
         );
+        console.log('limit: ', limit.toString());
 
         for (let i = poolPairData.length - 2; i >= 0; i--) {
+            console.log({
+                ...poolPairData[i],
+                balanceIn: poolPairData[i].balanceIn.toString(),
+                balanceOut: poolPairData[i].balanceOut.toString(),
+            });
             const poolLimitExactIn = path.pools[i].getLimitAmountSwap(
                 poolPairData[i],
                 SwapTypes.SwapExactIn
@@ -42,6 +55,8 @@ export function getLimitAmountSwapForPath(
                 poolPairData[i],
                 SwapTypes.SwapExactOut
             );
+            console.log('pool limit exact in: ', poolLimitExactIn.toString());
+            console.log('pool limit exact out: ', poolLimitExactOut.toString());
             if (poolLimitExactOut.lte(limit)) {
                 limit = poolLimitExactIn;
             } else {
